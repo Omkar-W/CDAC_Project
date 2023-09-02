@@ -56,10 +56,7 @@ function RegCustomer()
         }
     },[errors])
 
-    function onChange(value) {
-        console.log("Captcha value:", value);
-        setVerifed(true);
-      }
+  
 
     return (
    
@@ -163,13 +160,8 @@ function RegCustomer()
                         </div>
                     </div>
 
-                    <div className="" style={{marginLeft:"273px"}} >
-                        <ReCAPTCHA className="col-sm-8"
-                                sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"
-                                onChange={onChange}
-                        />
-                    </div> 
-                    <button className="btn btn-primary float-right" disabled={!Verifed}>Register Now</button>
+                    
+                    <button className="btn btn-primary float-right" >Register Now</button>
 
                     </form>
                 </div>

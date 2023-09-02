@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { useDispatch } from "react-redux";
 import { useHistory } from "react-router-dom";
 import loginvalidation from "../loginvalidation"
-import ReCAPTCHA from "react-google-recaptcha";
+
 
 function CustomerLogin(){
 
@@ -50,11 +50,6 @@ function CustomerLogin(){
         }
     },[errors])
 
-    function onChange(value) {
-        console.log("Captcha value:", value);
-        setVerifed(true);
-      }
-
     return (
   
 
@@ -83,13 +78,9 @@ function CustomerLogin(){
 
                     </div>  
 
-                    <div className="" style={{marginLeft:"-15px"}} >
-                        <ReCAPTCHA className="col-sm-8"
-                                sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"
-                                onChange={onChange}
-                        />
-                    </div>                   
-                    <button className="btn btn-primary float-left" style={{marginLeft:"470px"}}  disabled={!Verifed}>Login Now</button>
+                                     
+                    <button className="btn btn-primary float-left" style={{marginLeft:"470px"}}  >Login Now</button>
+                    {/*//disabled not working */}
 
                     </form>
                 </div>

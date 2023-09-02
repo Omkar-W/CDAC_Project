@@ -1,4 +1,4 @@
-function ProductDetails({x}){
+function ProductDetails(){
 
     return (
         <div className="modal fade">

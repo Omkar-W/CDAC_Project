@@ -65,9 +65,9 @@ function Footer(){
                 style={{width: "60px", backgroundColor: "#7c4dff", height: "2px"}}
                 />
               <p><i className="fas fa-home mr-3"></i>  </p>
-              <p><i className="fas fa-envelope mr-3"></i> hikerstop@gmail.com</p>
-              <p><i className="fas fa-phone mr-3"></i> + 01 234 567 88</p>
-              <p><i className="fas fa-print mr-3"></i> + 01 234 567 89</p>
+              <p><i className="fas fa-envelope mr-3"></i> tourtravels@gmail.com</p>
+              <p><i className="fas fa-phone mr-3"></i> + 7894561231</p>
+              <p><i className="fas fa-print mr-3"></i> + 987654321</p>
             </div>
        
           </div>
@@ -83,7 +83,7 @@ function Footer(){
          >
       © 2022 Copyright:
       <Link  to=""
-         >hikerstop.com</Link
+         >tourtravels.com</Link
         >
     </div>
     </div>   

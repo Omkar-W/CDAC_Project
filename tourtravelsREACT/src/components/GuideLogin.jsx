@@ -86,16 +86,9 @@ function GuideLogin(){
                         </div>
                     </div>      
                     <div>
-
-                    <div className="" style={{marginLeft:"-15px"}} >
-                        <ReCAPTCHA className="col-sm-8"
-                                sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"
-                                onChange={onChange}
-                        />
-                    </div>   
                    
 
-                    <button className="btn btn-primary float-left " style={{marginLeft:"469px"}} disabled={!Verifed}>Login Now</button>
+                    <button className="btn btn-primary float-left " style={{marginLeft:"469px"}} >Login Now</button>
 
                         </div>              
                     
